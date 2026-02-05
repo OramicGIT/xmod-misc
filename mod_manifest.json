@@ -1,0 +1,12 @@
+{
+  "repositoryName": "XMod_Store",
+  "mods": [
+    {
+      "id": "Test",
+      "name": "Test",
+      "version": "1.0",
+      "author": "User",
+      "downloadUrl": "https://docs.google.com/uc?export=download&id="
+    }
+  ]
+}
