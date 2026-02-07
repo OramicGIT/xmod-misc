@@ -1,0 +1,20 @@
+How to mod your game:
+Go to your Application.streamingAssetsPath (Game folder/folder with _data name/StreamingAssets) then create folder named Mods
+Go inside Mods folder, and then create your mod folder (for example AliveBox folder)
+Go inside it, then create info.json:
+{
+  "name": "Alive Box",
+  "textureName": "texture.png",
+  "category": "Live",
+  "isSolid": true,
+  "isPhysics": true,
+  "mass": 5.0
+}
+Name is mod name
+TextureName is texture that is being used by the mod
+category is your mod category (Live, Misc, Explosives, Destructive)
+isSolid makes your object solid
+isPhysics makes your mod have physics
+mass: The mass is given in arbitrary units, but the basic physical principles of mass apply. 
+Newton's classic equation `force = mass multiplied by acceleration`, demonstrates that the larger an object's mass, 
+the more force it requires to accelerate it to a given velocity. An object with large mass will be moved less by a collision than an object with lower mass.
